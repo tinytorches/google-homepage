@@ -9,14 +9,18 @@
       mame="description"
       content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for."
     />
-    <!--utf-8 is the charset that "our" computers can understand-->
+
     <meta charset="utf-8" />
-    <!--for search engine crawlers; not present on Google Search though-->
+    <!--utf-8 is the charset that "our" computers can understand-->
+
     <meta name="robots" content="index,follow" />
-    <!--linking our saved favicon to the document; referencing it-->
+    <!--for search engine crawlers; not present on Google Search though-->
+
     <link rel="icon" href="/img/googleicon_128x128.ico" />
-    <!--viewport meta tag helps with scaling our desktop website to mobile; introdcued at a time when websites were originally made for desktop computers-->
+    <!--linking our saved favicon to the document; referencing it-->
+
     <meta name="--viewport" content="width=device-width,initial-scale=1" />
+    <!--viewport meta tag helps with scaling our desktop website to mobile; introdcued at a time when websites were originally made for desktop computers-->
   </head>
 
   <body>
@@ -33,7 +37,7 @@
           <li>Gmail</li>
           <li>Images</li>
           <li>
-            <img src="/img/gridview_64x64.png" alt="Google grid view icon" />
+            <img src="/svg/apps-black-18dp.svg" />
           </li>
           <li>User Profile</li>
         </ul>
@@ -46,7 +50,12 @@
       </div>
       <div class="search" id="search-form">
         <form>
+          <img src="/svg/search-black-18dp.svg" alt="search icon" />
           <input type="text" />
+          <img
+            src="/svg/keyboard_voice-black-18dp.svg"
+            alt="keyboard voice icon"
+          />
         </form>
         <form>
           <button type="submit">Google Search</button>
@@ -63,11 +72,5 @@
         </ul>
       </div>
     </div>
-    <ul>
-      <li>test</li>
-      <li>test</li>
-      <li>test</li>
-      <li>test</li>
-    </ul>
   </body>
 </html>
