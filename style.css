@@ -2,6 +2,32 @@ ul {
   list-style: none;
 }
 
+.nav-svg {
+  opacity: 0.55;
+}
+
+#apps-icon {
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  line-height: normal;
+}
+
+#account-icon {
+  background-size: 32px;
+  height: 32px;
+  width: 32px;
+  line-height: normal;
+}
+
+li {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  opacity: 0.75;
+  padding-left: 15px;
+}
+
 button {
   background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
   background-color: #f2f2f2;
@@ -21,5 +47,13 @@ button {
 }
 
 input {
-  background-color: black;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  width: 482px;
+  margin: 0 auto;
 }
