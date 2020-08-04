@@ -10,43 +10,74 @@
   <body>
     <nav>
       <div class="nav-left">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Store</a></li>
-        </ul>
+        <a href="#" id="about">About</a>
+        <a href="#" id="store">Store</a>
       </div>
       <div class="nav-right">
-        <ul>
-          <li><a href="#">Gmail</a></li>
-          <li><a href="#">Images</a></li>
-          <div>
-            <a href="#"
-              ><img src="/svg/apps-black-18dp.svg" alt="apps" id="apps-icon"
-            /></a>
-          </div>
-          <div>
-            <a href="#" id="sign-in">Sign in</a>
-          </div>
-        </ul>
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <div>
+          <a href="#" id="apps"
+            ><img
+              id="apps-icon"
+              src="/svg/apps-black-18dp.svg"
+              height="30"
+              width="30"
+              alt="apps"
+          /></a>
+        </div>
+        <div>
+          <a href="#" id="sign-in">Sign in</a>
+        </div>
       </div>
     </nav>
     <div class="main-content">
       <center>
         <div class="google-logo">
-          <img src="/img/googlelogo_color_272x92dp.png" alt="google logo" />
+          <img
+            id="google"
+            src="/img/googlelogo_color_272x92dp.png"
+            alt="google logo"
+          />
         </div>
-        <div class="input-field">
-          <input type="text" />
-        </div>
-        <div class="submit-buttons">
-          <center>
-            <form action="submit">
-              <button>Google Search</button>
-              <button>I'm Feeling Lucky</button>
-            </form>
-          </center>
-        </div>
+        <form>
+          <div class="search">
+            <img
+              id="magnifying"
+              src="/svg/search-black-18dp.svg"
+              height="24"
+              width="24"
+              alt="magnifying glass icon"
+            />
+            <input class="input-search" type="text" />
+            <img
+              id="microphone"
+              src="/svg/keyboard_voice-black-18dp.svg"
+              height="24"
+              width="24"
+              alt="microphone icon"
+            />
+          </div>
+          <div class="buttons">
+            <input type="submit" class="submit" value="Google Search" />
+            <input type="submit" class="submit" value="I'm Feeling Lucky" />
+          </div>
+        </form>
       </center>
     </div>
+    <footer>
+      <div class="foot-nav">
+        <div class="nav-left">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search works</a>
+        </div>
+        <div class="nav-right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
