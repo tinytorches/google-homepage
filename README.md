@@ -17,7 +17,7 @@ Using the browser’s developer tools (right clicking something on the page and 
 
 I finally got to tackle my first HTML/CSS project/exercise with the skills I've learned through [The Odin Project](https://www.theodinproject.com/) and the material on [freeCodeCamp](https://www.freecodecamp.org/). I also adapted things I've learned through [Dev Ed's channel on YouTube](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q).
 
-I also extensively used the DevTools within my browser, which helped a lot. Some of the naming threw me off in the beginning, but the structure of the HTML was making more sense as I looked at it longer along with the CSS to make my code look similar too.
+I also used the DevTools within my browser, which helped a lot. Some of the naming threw me off in the beginning, but the structure of the HTML was making more sense as I looked at it longer along with the CSS to make my code look similar too.
 
 I made multiple attempts at creating index.html and style.css files. The documents named "-archive" were the last version of that respective document. However, I did notice that this helped build more familiarity with the code compared to the first time I tried taking on this project and each attempt was faster, since it was fresh on my mind.
 
