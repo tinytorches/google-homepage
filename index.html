@@ -1,104 +1,52 @@
 <!DOCTYPE html>
-<!--shoutout to dev ed's "Learn HTML5 and CSS3 for Beinners - Crash Course" video-->
 <html lang="en">
   <head>
-    <!--things operating in the background go here-->
-    <title>Google</title>
-    <!--meta tags are great for SEO purposes-->
-    <meta
-      mame="description"
-      content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for."
-    />
-
-    <meta charset="utf-8" />
-    <!--utf-8 is the charset that "our" computers can understand-->
-
-    <meta name="robots" content="index,follow" />
-    <!--for search engine crawlers; not present on Google Search though-->
-
-    <link rel="icon" href="/img/googleicon_128x128.ico" />
-    <!--linking our saved favicon to the document; referencing it-->
-
-    <meta name="--viewport" content="width=device-width,initial-scale=1" />
-    <!--viewport meta tag helps with scaling our desktop website to mobile; introdcued at a time when websites were originally made for desktop computers-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <!--link to our stylesheet document-->
+    <link rel="icon" href="/img/googleicon_128x128.ico" />
+    <title>Google</title>
   </head>
-
   <body>
-    <!--holds all the information we see on-screen-->
-    <div class="header">
-      <div class="nav1">
+    <nav>
+      <div class="nav-left">
         <ul>
-          <li>About</li>
-          <li>Store</li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
         </ul>
       </div>
-      <div class="nav2">
+      <div class="nav-right">
         <ul>
-          <li>Gmail</li>
-          <li>Images</li>
-          <li>
-            <img
-              src="/svg/apps-black-18dp.svg"
-              alt="apps icon"
-              class="nav-svg"
-              id="apps-icon"
-            />
-          </li>
-          <li>
-            <img
-              src="/svg/account_circle-black-18dp.svg"
-              alt="account circle icon"
-              class="nav-svg"
-              id="account-icon"
-            />
-          </li>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <div>
+            <a href="#"
+              ><img src="/svg/apps-black-18dp.svg" alt="apps" id="apps-icon"
+            /></a>
+          </div>
+          <div>
+            <a href="#" id="sign-in">Sign in</a>
+          </div>
         </ul>
       </div>
-    </div>
-    <div class="content" id="main">
-      <div class="header" id="logo">
-        <img
-          src="/img/googlelogo_color_272x92dp.png"
-          alt="Google logo"
-          style="padding-top: 109px;"
-          height="92"
-          width="272;"
-        />
-      </div>
-      <div class="search" id="search-form">
-        <form>
-          <img
-            class="..."
-            src="/svg/search-black-18dp.svg"
-            alt="search icon"
-            height="24px"
-            width="24px"
-          />
+    </nav>
+    <div class="main-content">
+      <center>
+        <div class="google-logo">
+          <img src="/img/googlelogo_color_272x92dp.png" alt="google logo" />
+        </div>
+        <div class="input-field">
           <input type="text" />
-          <img
-            class="..."
-            src="/svg/keyboard_voice-black-18dp.svg"
-            alt="keyboard voice icon"
-            height="24px"
-            width="24px"
-          />
-        </form>
-        <form>
-          <button type="submit">Google Search</button>
-          <button type="submit">I'm Feeling Lucky</button>
-        </form>
-      </div>
-      <div class="footer">
-        <ul>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>How Search works</li>
-          <li>Privacy</li>
-          <li>Terms</li>
-        </ul>
-      </div>
+        </div>
+        <div class="submit-buttons">
+          <center>
+            <form action="submit">
+              <button>Google Search</button>
+              <button>I'm Feeling Lucky</button>
+            </form>
+          </center>
+        </div>
+      </center>
     </div>
   </body>
 </html>
